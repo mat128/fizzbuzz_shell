@@ -1,2 +1,7 @@
+addons:
+  apt:
+    packages:
+      - bc
+
 install: true
 script: make test
